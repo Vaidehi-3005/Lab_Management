@@ -33,7 +33,11 @@ function Profile() {
           >Profile Details</div>
           <div className="dropdown-item">Security Settings</div>
           <hr/>
-          <div className="dropdown-item">Logout</div>
+          <div className="dropdown-item"
+           onClick={() => {
+              navigate("/");
+            }}
+            >Logout</div>
         </div>
       )}
     </div>
