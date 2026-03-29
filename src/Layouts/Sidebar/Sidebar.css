@@ -39,15 +39,4 @@ nav {
 
 .nav-link.active {
   color: #2d6cdf;
-  font-weight: bold;
-}
-
-.nav-link.active::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 2px;
-  background: #2d6cdf;
 }

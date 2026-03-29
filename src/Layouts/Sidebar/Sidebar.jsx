@@ -13,7 +13,7 @@ function Sidebar() {
       <nav>
         <NavLink to="/dashboard" className="nav-link">
           Dashboard
-        </NavLink >
+        </NavLink>
         <NavLink to="/patients" className="nav-link">
           Patients
         </NavLink>
